@@ -192,6 +192,12 @@ def wx_push(wx_uid, title, response):
         "summary": title,
         "contentType": 3,
         "uids": [wx_uid]
+        
+        
+        
+        
+        
+        
     }
     response = requests.post(wx_pusher_url, json=data)
 
